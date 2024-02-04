@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Cooper Black", Times, serif;
+    background: url("Images/checker-bg.png") repeat;
+    background-size: auto;
+    animation: slide 10s linear infinite;
+}
+
+h1 {
+    font-size: 105px;
+}
+
+h2 {
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+/* Add a black background color to the top navigation */
+.menu {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.menu a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Cooper Black", Times, serif;
+}
+
+/* Change the color of links on hover */
+.menu a:hover {
+    background-color: #777;
+}
+
+/* Add a color to the active/current link */
+.menu a#current {
+    background-color: #00abff;
+    color: white;
+}
+
+p {
+    margin: 5%;
+    font-size: 24px;
+}
+
+table,
+th,
+td {
+    background-color: white;
+    border-color: black;
+    border: 2px solid;
+}
+
+#tableImg {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+@keyframes slide {
+    0% {
+        background-position: 0px 0px;
+    }
+
+    100% {
+        background-position: 200px 200px;
+    }
+}
+
+ul {
+    text-align: left;
+}
+
+li {
+    text-align: left;
+}
+
+#galleryImg {
+    max-width: 1280px;
+    height: auto;
+    border: 10px solid;
+    border-color:gold;
+}

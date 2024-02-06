@@ -27,7 +27,7 @@ h2 {
 
 /* Style the links inside the navigation bar */
 .menu a {
-    float: left;
+    float: center;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 28px;
@@ -76,7 +76,7 @@ td {
 }
 
 #galleryImg {
-    max-width: 1280px;
+    max-width: 480px;
     height: auto;
     border: 10px solid;
     border-color:gold;

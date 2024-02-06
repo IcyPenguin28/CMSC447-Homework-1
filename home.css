@@ -7,7 +7,7 @@ body {
     font-family: "Cooper Black", Times, serif;
     background: url("Images/checker-bg.png") repeat;
     background-size: auto;
-    animation: slide 10s linear infinite;
+    animation: diagonal_slide 10s linear infinite;
 }
 
 h1 {
@@ -30,7 +30,7 @@ h2 {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 28px;
     text-decoration: none;
     font-size: 20px;
     font-family: "Cooper Black", Times, serif;
@@ -65,7 +65,7 @@ td {
     max-height: 100px;
 }
 
-@keyframes slide {
+@keyframes diagonal_slide {
     0% {
         background-position: 0px 0px;
     }
